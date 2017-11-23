@@ -1,0 +1,24 @@
+{
+    "name": "kl83/yii2-fontawesome-asset",
+    "description": "Yii2 FontAwesome asset",
+    "require": {
+        "yiisoft/yii2": "^2.0.0",
+        "bower-asset/font-awesome": "4.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksandr Solovyov",
+            "email": "solovyov.a.a.19@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "kl83\\assets\\": "" }
+    }
+}
